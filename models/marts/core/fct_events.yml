@@ -1,0 +1,11 @@
+models:
+  - name: fct_events
+    description: INSERT DESCRIPTION HERE
+    columns:
+      - name: user_id
+        description: '{{ doc("bingeflix_user_id") }}'
+        meta:
+          priority: high
+        tests:
+          - not_null
+          - unique

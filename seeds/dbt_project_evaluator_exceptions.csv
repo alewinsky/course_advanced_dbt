@@ -1,0 +1,3 @@
+fct_name,column_name,id_to_exclude,comment
+fct_model_naming_conventions,resource_name,mrr,this model does not require the default dim_ or fct_ prefix
+fct_root_models,child,dim_dates,this model is not required to have a parent model given it is part of the dbt utils package

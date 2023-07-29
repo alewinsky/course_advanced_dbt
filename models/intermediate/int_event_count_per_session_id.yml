@@ -16,3 +16,4 @@ models:
 
       - name: video_watched_count
         description: The number of times the user watched videos during the specified session.
+

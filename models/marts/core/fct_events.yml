@@ -1,6 +1,6 @@
 models:
   - name: fct_events
-    description: INSERT DESCRIPTION HERE
+    description: '{{ doc("table_events") }}'
     columns:
       - name: user_id
         description: '{{ doc("bingeflix_user_id") }}'

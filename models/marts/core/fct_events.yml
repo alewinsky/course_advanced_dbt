@@ -2,6 +2,10 @@ models:
   - name: fct_events
     description: '{{ doc("table_events") }}'
     columns:
+      - name: session_id
+        description: '{{ doc("session_id") }}'
+      - name: created_at
+        description: '{{ doc("event_created_at") }}'
       - name: user_id
         description: '{{ doc("bingeflix_user_id") }}'
         meta:
@@ -9,3 +13,7 @@ models:
         tests:
           - not_null
           - unique
+      - name: event_name
+        description: '{{ doc("event_name") }}'
+      - name: event_id
+        description: '{{ doc("event_id") }}'

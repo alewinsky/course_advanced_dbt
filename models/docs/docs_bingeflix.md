@@ -40,6 +40,8 @@ The unique identifier of the Bingeflix user on the Bingeflix application.
 {% enddocs %}
 
 ## Events
+This section contains documentation from the Bingeflix Events table.
+
 {% docs table_events %} 
 Contains events taken by users on the Bingeflix platform. Each record represents a unique action performed by a unique user.
 {% enddocs %}

@@ -17,7 +17,7 @@ When the subscription started.
 {% enddocs %}
 
 {% docs subscription_ends_at %}
-When the subscription ended.
+When the subscription ended. This value is NULL if the subscription is active.
 {% enddocs %}
 
 {% docs subscription_plan_name %}
